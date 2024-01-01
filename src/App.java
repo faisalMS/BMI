@@ -8,10 +8,11 @@ public class App {
 
         Scanner s = new Scanner(System.in);
         double theHeight = s.nextDouble();
-        int theWeight = s.nextInt();
-        double theResult = theWeight / theWeight;
-        
         System.out.println("Please Enter Your Height : " + theHeight);
 
+        int theWeight = s.nextInt();
+        System.out.println("Please Enter Your Weight : " + theWeight);
+
+        double theResult = theWeight / theWeight;
     }
 }
