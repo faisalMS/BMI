@@ -1,18 +1,22 @@
-## Getting Started
+## Body mass index calculator (BMI)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+BMI is an abbreviation for Body Mass Index and is also known as Body Mass Index.
+It is a scale used to estimate people's obesity based on mass and height.
 
-## Folder Structure
+## Requirements
 
-The workspace contains two folders by default, where:
+.Use the Scanner library to receive values from the user.
+.Definition of an element that receives a value from the user to store its length.
+.Definition of an element that receives a value from the user to store its mass.
+.Definition of an element that performs the mathematical operation and stores it inside it.
+.Defining a type of condition in which transactions are used to classify the value of a transaction and printing a message for each classification.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Output
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Hello Welcome To The BMI Calculator 
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Please Enter Your Height : 1.77
 
-## Dependency Management
+Please Enter Your Weight : 78
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Your BMI Is 24.89 , And Based On The Calculated BMI You Have (Normal Weight)
